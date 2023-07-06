@@ -10,6 +10,8 @@
             </div>
             <Likes offline label="Likes" v-model="item.likes" :editMode="false" :key="false" @change="change" />
             <Comment offline label="Comment" v-model="item.comment" :editMode="false" :key="false" @change="change" />
+            <Weather offline label="Weather" v-model="item.weather" :editMode="false" :key="false" @change="change" />
+            <Payment offline label="Payment" v-model="item.payment" :editMode="false" @change="change" />
         </v-card-text>
 
         <v-card-actions>
