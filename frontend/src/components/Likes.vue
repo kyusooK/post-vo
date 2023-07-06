@@ -34,7 +34,7 @@
             if(!Object.values(this.value)[0]) {
                 this.$emit('input', {});
                 this.newValue = {
-                    'isLiked': '',
+                    'isLiked': false,
                 }
             }
             if(typeof this.value === 'object') {

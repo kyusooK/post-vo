@@ -79,10 +79,12 @@
 <script>
     const axios = require('axios').default;
 
+    import Likes from './vo/Likes.vue'
 
     export default {
         name: 'SocialPost',
         components:{
+            Likes
         },
         props: {
             value: [Object, String, Number, Boolean, Array],
