@@ -71,6 +71,8 @@
                 'name': '',
                 'likes': {},
                 'comment': {},
+                'weather': {},
+                'payment': {},
             }
         },
         methods:{

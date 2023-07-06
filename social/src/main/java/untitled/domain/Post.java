@@ -23,6 +23,12 @@ public class Post {
     @Embedded
     private Comment comment;
 
+    @Embedded
+    private Weather weather;
+
+    @Embedded
+    private Payment payment;
+
     public static PostRepository repository() {
         PostRepository postRepository = SocialApplication.applicationContext.getBean(
             PostRepository.class

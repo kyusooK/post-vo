@@ -70,6 +70,8 @@
                     { text: "name", value: "name" },
                     { text: "likes", value: "likes" },
                     { text: "comment", value: "comment" },
+                    { text: "weather", value: "weather" },
+                    { text: "payment", value: "payment" },
                 ],
             post : [],
             newValue: {},
@@ -90,6 +92,8 @@
                 'name': '',
                 'likes': {},
                 'comment': {},
+                'weather': {},
+                'payment': {},
             }
         },
         methods: {
