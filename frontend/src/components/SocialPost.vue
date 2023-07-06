@@ -20,6 +20,8 @@
             <String label="Name" v-model="value.name" :editMode="editMode" :inputUI="''"/>
             <Likes offline label="Likes" v-model="value.likes" :editMode="editMode" @change="change"/>
             <Comment offline label="Comment" v-model="value.comment" :editMode="editMode" @change="change"/>
+            <Weather offline label="Weather" v-model="value.weather" :editMode="editMode" @change="change"/>
+            <Payment offline label="Payment" v-model="value.payment" :editMode="editMode" @change="change"/>
         </v-card-text>
 
         <v-card-actions>
@@ -79,12 +81,20 @@
 <script>
     const axios = require('axios').default;
 
+<<<<<<< HEAD
     import Likes from './vo/Likes.vue'
+=======
+    import Payment from './vo/Payment.vue';
+>>>>>>> 02b4376d4f760f7425e47f1d750c996b8967a8de
 
     export default {
         name: 'SocialPost',
         components:{
+<<<<<<< HEAD
             Likes
+=======
+            Payment,
+>>>>>>> 02b4376d4f760f7425e47f1d750c996b8967a8de
         },
         props: {
             value: [Object, String, Number, Boolean, Array],

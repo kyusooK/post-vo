@@ -13,6 +13,8 @@
                             
                             
                             
+                            
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -20,6 +22,8 @@
                             [ Name :  {{data.name }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Likes :  {{data.likes }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Comment :  {{data.comment }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Weather :  {{data.weather }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Payment :  {{data.payment }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -104,6 +108,8 @@
                 'name': '',
                 'likes': {},
                 'comment': {},
+                'weather': {},
+                'payment': {},
             }
         },
         methods: {
